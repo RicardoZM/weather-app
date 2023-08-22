@@ -1,19 +1,12 @@
 import "./index.css";
-import Header from "./components/Header";
+import CityCard from "./components/CityCard";
 
 function App() {
-  return (
-<div className="">
-  
-  <Header></Header>
-</div>
-
-
-
-
-
-  
-  );
+   return (
+      <div className="uppercase">
+         <CityCard />
+     </div>
+    );
 }
 
 export default App;
